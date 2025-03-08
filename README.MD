@@ -1,2 +1,5 @@
-## Odin Simple Project 
-The Odin Recipes
+# Odin Project Food Recipes
+I am task to develop a simple website that will link to different web pages of different food recipes such as:
+- Lasagna
+- Peach Pie
+- Creamy Bun
