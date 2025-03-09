@@ -1,0 +1,27 @@
+.navigation {
+    margin: 0px 0px 0px 460px;
+}
+
+.navigation ul li{
+    margin: 0 0px 0 30px;
+    padding-top: 35px;
+    display: inline-block;
+}
+
+.navigation ul li a {
+    font-family: Arial, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+#navigation-block {
+    background-color: darkred;
+    border-radius: 10px;
+    height: 100px;
+}
