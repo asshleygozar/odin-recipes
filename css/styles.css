@@ -1,17 +1,24 @@
-.navigation {
-    margin: 0px 0px 0px 460px;
+* {
+    margin-top: 0px;
 }
 
+.navigation {
+    margin: 0 0 0 390;
+}
+
+.navigation .logo{
+    margin-left: 0;
+}
 .navigation ul li{
-    margin: 0 0px 0 30px;
-    padding-top: 35px;
+    margin: 0 0 0 40px;
+    padding-top: 30px;
     display: inline-block;
 }
 
 .navigation ul li a {
     font-family: Arial, 'Times New Roman', Times, serif;
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 1em;
+    font-weight: 400;
     color: white;
     text-decoration: none;
 }
@@ -22,6 +29,9 @@
 }
 #navigation-block {
     background-color: darkred;
-    border-radius: 10px;
-    height: 100px;
+    height: 80px;
+}
+
+body {
+    margin: 0;
 }
