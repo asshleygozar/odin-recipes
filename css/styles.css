@@ -8,3 +8,28 @@
     margin: 0;
     padding: 0;
 }
+
+.navigation-block {
+    height: 90px;
+    padding-top: 22px;
+    background-color: darkred;
+}
+
+.navigation ul li {
+    display: inline;
+    margin-top: 10px;
+}
+
+.navigation ul li a{
+    font-size: 20px;
+    font-family: Inter, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    margin: 20px;
+    color: yellow;
+}
+
+.nav.logo {
+    font-size: 35px;
+    color: white;
+    margin: 0 500px 0 30px;
+}
