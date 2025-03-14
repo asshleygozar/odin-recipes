@@ -9,6 +9,10 @@
     padding: 0;
 }
 
+.intro {
+    height: 600px;
+    background-color: rgb(188, 128, 16);
+}
 .navigation-block {
     height: 90px;
     padding-top: 22px;
@@ -25,6 +29,10 @@
     font-family: Inter, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     margin: 20px;
+    color: white;
+}
+
+.navigation ul li a:hover {
     color: yellow;
 }
 
@@ -32,4 +40,34 @@
     font-size: 35px;
     color: white;
     margin: 0 500px 0 30px;
+}
+
+.intro-message {
+    font-size: 40px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    margin: 180px 0 0 50px;
+}
+
+.recipes-description {
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.recipe-header {
+    width: 400px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px auto 40px auto;
+}
+
+.recipes-description .recipes {
+    height: 300px;
+    width: 200px;
+    border-radius: 2px;
+    border: 1px solid black;
+    margin: 40px 100px;
+    padding: 20px 60px;
 }
