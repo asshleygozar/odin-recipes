@@ -24,10 +24,13 @@
 
 .navigation ul li {
     display: inline;
+    width: 100%;
     margin-top: 10px;
 }
 
 .navigation ul li a{
+    height: 100%;
+    width: 100%;
     font-size: 20px;
     font-family: Inter, Geneva, Tahoma, sans-serif;
     text-decoration: none;
@@ -45,8 +48,8 @@
     margin: 0 500px 0 30px;
 }
 .introduction {
-    height: 600px;
-    width: 1250px;
+    height: 100%;
+    width: 100%;
 }
 
 .intro-group {
@@ -64,7 +67,10 @@
     margin-right: 80px;
     float: right;
 }
-
+.intro-logo {
+    height: 100%;
+    width: 100%;
+}
 .intro-message {
     font-size: 40px;
     font-weight: 500;
