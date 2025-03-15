@@ -17,7 +17,7 @@
 }
 .navigation-block {
     height: 90px;
-    padding-top: 22px;
+    display: flex;
     background-color: #D6001C;
     border-bottom: 4px solid #FFBC0D;
 }
