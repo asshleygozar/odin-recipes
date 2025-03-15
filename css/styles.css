@@ -18,6 +18,8 @@
 .navigation-block {
     height: 90px;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: #D6001C;
     border-bottom: 4px solid #FFBC0D;
 }
